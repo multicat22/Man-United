@@ -22,3 +22,8 @@ h2{
     font-size: 25pt;
  text-align: center;
 }
+#blokk{
+    float: right;
+    padding-right: 40px;
+    width: 50%;
+}
