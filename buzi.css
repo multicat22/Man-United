@@ -13,10 +13,12 @@ p{
 }
 .szutyi{
     font-size: 17pt;
+    padding: 0 20px 0 40px;
 }
 .kukac{
     font-size: 17pt;
-
+    padding-right: 40px;
+padding-left: 40px;
 }
 h2{
     font-size: 25pt;
@@ -25,5 +27,12 @@ h2{
 #blokk{
     float: right;
     padding-right: 40px;
-    width: 50%;
+    width: 30%;
+    padding-top: 20px;
+}
+#kep{
+    margin: auto;
+    padding-left: 430px;
+    padding-bottom: 00px;
+    
 }
