@@ -36,3 +36,20 @@ h2{
     padding-bottom: 00px;
     
 }
+#szbsz{
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 20px;
+}
+#szabaly{
+    font-size: 40pt;
+}
+.szabalyok{
+    background-image: url(volleyball-net-on-sandy-mediterranean-beach.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logs{
+    padding-left: 430px;
+    width: 400px;
+}
