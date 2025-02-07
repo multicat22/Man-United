@@ -1,31 +1,37 @@
-body{
-    
-    background-color: grey;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    
-    
+body {
+
+    background-color: rgb(216, 213, 213);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
 }
-h1{
+
+h1 {
     text-align: center;
-    
+
 }
-p{
-    margin:auto
+
+p {
+    margin: auto
 }
-.szutyi{
+
+.szutyi {
     font-size: 17pt;
     padding: 0 20px 0 40px;
 }
-.kukac{
+
+.kukac {
     font-size: 17pt;
     padding-right: 40px;
     padding-left: 40px;
 }
-h2{
+
+h2 {
     font-size: 19pt;
- text-align: center;
+
 }
-#blokk{
+
+#blokk {
     float: right;
     padding-right: 40px;
     width: 30%;
@@ -33,29 +39,132 @@ h2{
     border-radius: 30px;
     border-top-right-radius: 30px;
 }
-#kep{
+
+#kep {
     margin: auto;
     padding-left: 430px;
     padding-bottom: 00px;
-    
+
 }
-#szbsz{
+
+#szbsz {
     font-size: 24pt;
     text-align: center;
     padding-top: 20px;
 }
-#szabaly{
+
+#szabaly {
     font-size: 40pt;
 }
-.szabalyok{
+
+.szabalyok {
     background-image: url(volleyball-net-on-sandy-mediterranean-beach.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#logs{
+
+#logs {
     padding-left: 430px;
     width: 400px;
 }
-#kepep{
+
+#kepep {
     padding-left: 700px;
+}
+
+.rec {
+    float: left;
+    font-size: 19pt;
+}
+
+#reck {
+    font-size: 17pt;
+}
+
+.video {
+    border: 3px solid black;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px 20px 40px 40px;
+    align-items: center;
+    height: 1.4em;
+   
+
+}
+.video:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+.video a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.video:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+#rekordok {
+    padding-left: 30px;
+}
+
+.rekordok {
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    background-image: url(Matej_Kazijski5.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;
+    width: 1400px;
+    margin: auto;
+    font-size: 25px;
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 20px 20px 20px rgb(37, 37, 37);
+}
+
+.rekordok h2 {
+    font-size: 30px;
+}
+
+#rekordokszoveg {
+    margin-left: 30px;
+}
+
+.rekordok2 {
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    background-image: url(apad-67a5e8f5cb7fd.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+    background-position-x: 1140px ;
+    width: 1400px;
+    margin: auto;
+    font-size: 25px;
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 20px 20px 20px rgb(37, 37, 37);
+}
+.rekordok3{
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    background-image: url(jányok.jpg);
+    background-repeat: no-repeat;
+    background-size: 520px;
+    background-position-x: 1140px ;
+    width: 1400px;
+    margin: auto;
+    font-size: 25px;
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: 20px 20px 20px rgb(37, 37, 37);
 }
