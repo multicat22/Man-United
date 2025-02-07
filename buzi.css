@@ -41,10 +41,14 @@ h2 {
 }
 
 #kep {
-    margin: auto;
-    padding-left: 430px;
-    padding-bottom: 00px;
+    margin-left: 80px;
+    padding-left: 30px;
 
+}
+#kep1{
+    margin-left: 50px;
+    padding-left: 30px;
+    
 }
 
 #szbsz {
@@ -64,7 +68,8 @@ h2 {
 }
 
 #logs {
-    padding-left: 430px;
+    margin-left: 80px;
+    padding-left: 30px;
     width: 400px;
 }
 
@@ -128,6 +133,8 @@ h2 {
     height: 300px;
     margin-bottom: 30px;
     box-shadow: 20px 20px 20px rgb(37, 37, 37);
+    transition: ease-in-out 0.5s;
+    
 }
 
 .rekordok h2 {
@@ -152,6 +159,7 @@ h2 {
     height: 300px;
     margin-bottom: 30px;
     box-shadow: 20px 20px 20px rgb(37, 37, 37);
+    transition: ease-in-out 0.5s;
 }
 .rekordok3{
     border: 3px solid black;
@@ -167,4 +175,11 @@ h2 {
     height: 300px;
     margin-bottom: 30px;
     box-shadow: 20px 20px 20px rgb(37, 37, 37);
+    transition: ease-in-out 0.5s;
+}
+.rekordok:hover,
+.rekordok2:hover,
+.rekordok3:hover{
+transform: scale(1.05);
+transition: ease-in-out 0.5s;
 }
